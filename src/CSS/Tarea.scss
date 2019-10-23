@@ -1,0 +1,73 @@
+.Tarea  {
+    font-size: 1.3em;
+    background: white;
+    border-radius: 10px;
+    margin:0.5em;
+    padding:0.3em 1.3em 0.3em ;
+    display: flex;
+    flex-direction: column;
+    border-right: solid 10px black;
+} 
+.Tarea .deleteButton {
+    background: transparent;
+    border: 2px solid #f13939;
+    border-radius: 2em;
+    color: #f13939;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 2px;
+    margin: 0 0 8px;
+    padding: 0;
+    text-align: center;
+    width: 30px;
+    }
+
+.Tarea .moveButton {
+    background: transparent;
+    border: 2px solid #4898bd;
+    border-radius: 2em;
+    color: #48a5bd;
+    display: inline-block;
+    font-size: 28px;
+    height: 30px;
+    line-height: 2px;
+    margin: 0 0 8px;
+    padding: 0;
+    text-align: center;
+    width: 45px;
+    }
+.Tarea .text{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    margin-right: 0.1em;
+}
+.Tarea .actions{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px;
+}
+.Tarea .colorButton{
+    border-radius: 2em;
+    display: inline-block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 2px;
+    margin: 0 0 8px;
+    padding: 0;
+    text-align: center;
+    width: 30px;
+    cursor: pointer;
+}
+.Tarea .popover{
+    position: absolute;
+    z-index: 2;
+  }
+.Tarea .cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }

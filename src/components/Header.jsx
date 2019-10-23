@@ -1,0 +1,1 @@
+Componente HeaderComponente Headerconst Header = () => (<header><h1>Prueba</h1><Linkto="/">Home</Link><Linkto="/about">About</Link></header>);

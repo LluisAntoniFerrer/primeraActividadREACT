@@ -1,0 +1,7 @@
+.Panel .columnList{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    min-height: 85vh;
+}

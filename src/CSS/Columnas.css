@@ -1,0 +1,8 @@
+.Columnas{
+    width: 25vw;
+    border: solid 1px black;
+    border-radius: 6px;
+    margin:0.5em;
+    padding: 1em;
+    background: #c7d8ed;
+}
